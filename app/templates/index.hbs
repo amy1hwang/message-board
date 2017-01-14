@@ -1,0 +1,7 @@
+{{#link-to 'index'}}<h1>Ask The Meow Expawrts</h1>{{/link-to}}
+{{new-question saveQuestion="saveQuestion"}}
+ <ul>
+  {{#each model as |question|}}
+    {{question-tile question=question edit="edit"}}
+  {{/each}}
+</ul>

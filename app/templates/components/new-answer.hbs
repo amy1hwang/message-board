@@ -1,0 +1,13 @@
+{{#if addNewAnswer}}
+  <form class="add-answer-form">
+    <div class="form-group">
+      {{input placeholder="Written by" value=author id="anAuthor"}}
+    </div>
+    <div class="form-group">
+      {{textarea placeholder="Answer" value=content id="anContent"}}
+    </div>
+    <button {{action 'saveAnswer'}}>Submit Answer</button>
+  </form>
+{{else}}
+  <button {{action 'answerFormShow'}}>Answer {{question.author}}'s question.</button>
+{{/if}}
