@@ -1,11 +1,8 @@
 # messageboard
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This website is to ask questions about cats and anyone can answer them. A user may ask multiple questions, edit, answer, and delete any posts.
 
-## Prerequisites
-
-You will need the following things properly installed on your computer.
+## Techologies Used
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
@@ -13,35 +10,27 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Setup Instructions
 
-* `git clone <repository-url>` this repository
-* `cd messageboard`
-* `npm install`
-* `bower install`
+1. Clone this repository
+2. Run $ npm install in Terminal.
+3. Run $ bower install in Terminal.
+4. Run $ ember serve or $ ember s.
 
 ## Running / Development
-
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
-
 Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
-
 * `ember test`
 * `ember test --server`
 
 ### Building
-
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
